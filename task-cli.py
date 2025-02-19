@@ -1,3 +1,8 @@
+"""
+    Task tracker is a project used to track and manage your tasks.
+    The application should run from the command line, accept user actions and inputs as arguments,
+    and store the tasks in a JSON file.
+"""
 from datetime import datetime
 from components import (write_task, check_task_id_exist, tasks, modify_task_status, cli_arguments, display_tasklist,
                         check_task_description_exist)
